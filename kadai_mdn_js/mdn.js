@@ -10,7 +10,7 @@
 const date = new Date();
 
 const [month, day, year] = [
-    date.getMonth(),
+    date.getMonth() + 1,
     date.getDate(),
     date.getFullYear(),
 ];
